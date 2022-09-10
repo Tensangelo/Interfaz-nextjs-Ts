@@ -1,0 +1,34 @@
+.containerCharacters {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 0 auto;
+
+    .cardCharacter {
+        border: 1px solid;
+        margin: 1rem;
+        padding: 2rem;
+        width: 35rem;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .nameCharacter {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .pictureCharacter {
+            display: flex;
+            position: relative;
+            margin: 1rem auto;
+            width: 20rem;
+            height: 20rem;
+        }
+
+        .infoCharacter {
+            font-size: 1.6rem;
+        }
+    }
+}
